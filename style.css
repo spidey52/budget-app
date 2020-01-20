@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #413c3c;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #35495e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3.4rem;
+  border-radius: 2px;
+}
+
+.brand-name {
+  color: #347474;
+  font-size: 28px;
+  font-weight: 700;
+  padding: auto 1.2rem;
+  margin: auto 1.2rem;
+}
+
+.brand-name:hover {
+  cursor: pointer;
+}
+
+.left .items {
+  padding: auto 10rem;
+  margin: auto 0.8rem;
+  display: inline-block;
+}
+
+.items a {
+  color: #f0efef;
+  font-size: 1.15rem;
+}
+
+.items a:hover {
+  color: #3986b1;
+  color: rgba(255, 255, 255, 0.6);
+  transition-duration: 0.2s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+
+.right {
+  margin-left: auto;
+  padding-right: 2rem;
+  font-size: 1.1rem;
+}
+
+.right a {
+  font-weight: 500;
+  color: white;
+}
+
+.right a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.2s all ease-in;
+}
+
+/* main section  */
+
+.main {
+  margin: 1.2rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-main {
+  width: 25vw;
+  /* background-color: yellow; */
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: fill;
+  border-radius: 50%;
+}
+
+.favourite-heading {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: rgb(163, 56, 52);
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+.favourite-person {
+  border-radius: 10px;
+  padding: 0.8rem;
+  background-color: rgb(94, 160, 94);
+  margin-bottom: 0.2rem;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.favourite-person:nth-child(2n) {
+  background-color: rgb(130, 101, 211);
+  background-color: rgb(189, 48, 158);
+}
+
+.favourite-person:nth-child(2n + 1) {
+  background-color: rgba(189, 48, 158, 0.7);
+  /* background-color: rgb(130, 101, 211, 0.8); */
+}
+.right-main {
+  width: 70vw;
+  /* background-color:rgb(118, 100, 139); */
+}
+
+.summary {
+  color: white;
+  background-color: #c4c4c4;
+  font-weight: bold;
+  font-size: 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.add-new {
+  color: white;
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.add-new-span:hover {
+  background-color: rgba(150, 216, 225, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.add-new-span {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #96d8e1;
+  border-radius: 0.6rem;
+  padding: 0.5rem 2rem;
+}
+
+.transact {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.transact-type {
+  width: 47%;
+  border-radius: 10px;
+}
+
+.transact-heading {
+  color: white;
+  background-color: rgb(110, 202, 67);
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.transact-heading-credit {
+  background-color: rgb(110, 202, 67);
+}
+
+.transact-heading-debit {
+  background-color: rgb(197, 50, 50);
+}
+
+.person {
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+}
+
+.person:nth-child(2n) {
+  background-color: rgb(99, 91, 91);
+}
+
+.person:nth-child(2n + 1) {
+  background-color: rgb(50, 50, 65);
+}
+
+.person-amount {
+  float: right;
+  margin-right: 10px;
+}
